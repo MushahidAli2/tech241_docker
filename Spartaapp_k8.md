@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: majeranowski/tech241-nginx:v1 # use the image that you built
+        image: # use the image that you built
         ports:
         - containerPort: 80
 
